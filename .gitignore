@@ -1,0 +1,14 @@
+
+# --- Excluir basura y plugins de Neovim y Vim ---
+neovim/**/.repro/
+neovim/**/.lazy/
+neovim/**/lazy/
+neovim/**/mason/
+neovim/**/undodir/
+neovim/**/*.log
+.netrwhist
+
+# --- Excluir archivos temporales del sistema ---
+.DS_Store
+*.swp
+*~
